@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+header p {
+    font-size: 1em;
+    color: #777;
+}
+
+header a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section h3 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #0077b5;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+section .job, section .project {
+    margin-bottom: 20px;
+}
+
+section .job h4, section .project h4 {
+    font-size: 1.25em;
+    color: #444;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 1em;
+    color: #555;
+}
+
+.skills ul, .certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li, .certifications ul li {
+    font-size: 1em;
+    color: #555;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #0077b5;
+    color: white;
+}
